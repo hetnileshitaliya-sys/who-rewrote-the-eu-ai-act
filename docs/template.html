@@ -1,0 +1,227 @@
+<title>Who Rewrote the EU AI Act?</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one 72ch reading column for text; charts and the browse table widen to 1040px and scroll inside their own boxes on phones */
+:root{
+  --bg:#fcfcfb; --surface:#ffffff; --fg:#1d1f22; --muted:#5f636b; --faint:#8b8f96; --line:#e3e3df;
+  --oppose:#2a78d6; --support:#b9b8b2; --further:#e34948;
+  --won:#1d1f22; --partly:#8b8f96; --lost:#dcdcd7;
+  --banner:#fff4d6; --banner-fg:#6b4a00;
+  --display:"Literata",Georgia,"Times New Roman",serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1a1a19; --surface:#222221; --fg:#ececea; --muted:#a6a8ad; --faint:#7d8086; --line:#34342f;
+  --oppose:#3987e5; --support:#6b6b66; --further:#e66767;
+  --won:#ececea; --partly:#8d9096; --lost:#3d3d39;
+  --banner:#3a2f12; --banner-fg:#f3d58a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1a1a19; --surface:#222221; --fg:#ececea; --muted:#a6a8ad; --faint:#7d8086; --line:#34342f;
+  --oppose:#3987e5; --support:#6b6b66; --further:#e66767;
+  --won:#ececea; --partly:#8d9096; --lost:#3d3d39;
+  --banner:#3a2f12; --banner-fg:#f3d58a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 72px;display:flex;flex-direction:column;gap:44px}
+.prose{max-width:72ch;display:flex;flex-direction:column;gap:12px}
+h1,h2{font-family:var(--display);font-weight:650;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:clamp(1.7rem,4vw,2.4rem)}
+h2{font-size:1.35rem}
+h3{font-size:1rem;margin:0;font-weight:600}
+p{margin:0}
+section{display:flex;flex-direction:column;gap:16px}
+.banner{background:var(--banner);color:var(--banner-fg);padding:10px 14px;border-radius:6px;font-size:.88rem;font-weight:500}
+.rq{font-family:var(--display);font-size:1.1rem;font-weight:500}
+.meta{color:var(--muted);font-size:.9rem}
+.key{display:flex;flex-wrap:wrap;gap:16px;font-size:.85rem;color:var(--muted)}
+.key span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px 32px}
+.panel{display:flex;flex-direction:column;gap:6px;min-width:0}
+.panel .dir{font-size:.78rem;color:var(--muted)}
+svg text{font-family:var(--body);fill:var(--muted);font-size:12px}
+svg .val{fill:var(--fg);font-weight:600;font-size:11px}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.86rem;min-width:760px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg);position:sticky;top:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-size:.75rem;font-weight:600;padding:1px 8px;border-radius:999px;border:1.5px solid currentColor;white-space:nowrap}
+.p-O{color:var(--oppose)}.p-S{color:var(--muted)}.p-F{color:var(--further)}
+.q{font-style:italic}
+.small{font-size:.8rem;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.filters select{font:inherit;font-size:.88rem;text-transform:none;letter-spacing:0;font-weight:400;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:6px 8px;min-width:150px}
+.filters select:focus-visible{outline:2px solid var(--oppose);outline-offset:1px}
+.tip{position:fixed;pointer-events:none;background:var(--fg);color:var(--bg);font-size:.8rem;padding:6px 9px;border-radius:5px;max-width:260px;z-index:20}
+.att{display:flex;flex-direction:column;gap:14px;max-width:760px}
+.attrow{display:grid;grid-template-columns:minmax(140px,220px) 1fr 52px;gap:12px;align-items:center}
+.attrow .lab{font-size:.9rem}
+.attrow .pct{font-family:var(--mono);font-weight:500;text-align:right}
+.bar{display:flex;height:22px;gap:2px}
+.bar div{height:100%}
+.bar div:first-child{border-radius:4px 0 0 4px}.bar div:last-child{border-radius:0 4px 4px 0}
+@media (max-width:560px){.attrow{grid-template-columns:1fr 46px}.attrow .lab{grid-column:1/-1}}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:no-preference){.bar div{transition:width .3s}}
+</style>
+
+<div class="wrap">
+<header class="prose">
+  __BANNER__
+  <h1>Who rewrote the EU AI Act?</h1>
+  <p class="rq">Research question: whose demands did the final Digital Omnibus on AI, Regulation (EU) 2026/1744, match: industry, public-interest groups or public authorities?</p>
+  <p>An evidence map of written feedback to the European Commission's proposal COM(2025)836 on the Have Your Say portal (21 November 2025 to 13 March 2026), compared article by article with the law that entered into force on 27 July 2026. <strong>80 of the 274 submissions are coded</strong>: every organisation in the smaller actor groups plus a random draw from the larger ones. Individual citizens are excluded and not named. Codes follow <code>codebook.md</code> in the project repository.</p>
+  <p class="meta">Het Italiya, University of Bristol. Independent project. Last updated __DATE__.</p>
+</header>
+
+<section class="prose">
+  <h2>Definitions and method</h2>
+  <p><strong>Position.</strong> For each of eight contested issues, a submission is coded as <em>opposes</em> the Commission's change, <em>supports</em> it as drafted, wants it to <em>go further</em>, or <em>not mentioned</em>. Every code carries a short quote from the submission.</p>
+  <p><strong>Match with the final law.</strong> Each position is compared with what Regulation (EU) 2026/1744 actually did, checked against the official texts on EUR-Lex. A demand is <em>won</em> if the final law matches it, <em>partly won</em> if the law moved in its direction but less far, and <em>lost</em> if the law went the other way. The share shown counts won as 1 and partly won as 0.5.</p>
+  <p><strong>What this shows and does not show.</strong> It shows correspondence between stated positions and the final text. It does not show influence: the law also moved through Parliament, Council and lobbying this map cannot see.</p>
+  <p><strong>Actor groups.</strong> Submitters keep the type they registered, and are grouped as industry (companies and business associations), public-interest and independent (NGOs, unions, consumer groups, academics) or public authorities. Five organisations whose self-registered type did not match what they are were regrouped, and each is flagged in the table. Three "other" submitters stay in the table but are left out of the charts.</p>
+</section>
+
+<section>
+  <div class="prose">
+    <h2>What the final law did, issue by issue</h2>
+    <p>Each panel counts the positions taken on one issue. The line under the title says how the final law compared with the Commission's proposal.</p>
+  </div>
+  <div class="key" aria-hidden="true">
+    <span><i class="sw" style="background:var(--oppose)"></i>Opposes the proposal</span>
+    <span><i class="sw" style="background:var(--support)"></i>Supports as proposed</span>
+    <span><i class="sw" style="background:var(--further)"></i>Wants it to go further</span>
+  </div>
+  <div class="grid" id="panels"></div>
+</section>
+
+<section>
+  <div class="prose">
+    <h2>How often the final law matched each group</h2>
+    <p id="attIntro"></p>
+  </div>
+  <div class="key" aria-hidden="true">
+    <span><i class="sw" style="background:var(--won)"></i>Won</span>
+    <span><i class="sw" style="background:var(--partly)"></i>Partly won</span>
+    <span><i class="sw" style="background:var(--lost)"></i>Lost</span>
+  </div>
+  <div class="att" id="att"></div>
+  <p class="small prose">The public-authority group is small (seven authorities, three of which took a position on these issues), so its share is indicative only.</p>
+</section>
+
+<section>
+  <h2>Browse the coded positions</h2>
+  <div class="filters">
+    <label for="fg">Actor group<select id="fg"></select></label>
+    <label for="fi">Issue<select id="fi"></select></label>
+    <label for="fp">Position<select id="fp"></select></label>
+    <label for="fo">Outcome<select id="fo"></select></label>
+  </div>
+  <p class="small" id="count"></p>
+  <div class="scroll" style="max-height:640px;overflow-y:auto"><table>
+    <thead><tr><th>Submitter</th><th>Group</th><th>Issue</th><th>Position</th><th>Outcome</th><th>Quote and notes</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table></div>
+</section>
+
+<section class="prose">
+  <h2>Limitations</h2>
+  <ul>
+    __VERIFY__
+    <li>Many submissions addressed the GDPR, Data Act or cyber rules in the same package. Only positions on the eight AI Act issues are coded, so most organisations are "not mentioned" on most issues.</li>
+    <li>One submission's PDF had no extractable text and could not be coded.</li>
+    <li>Several judgement calls are recorded case by case, for example where a group asked for more delay than the law gave. The outcome note says why.</li>
+  </ul>
+</section>
+
+<footer>Sources: European Commission, Have Your Say feedback on COM(2025)836; COM(2025)836 and Regulation (EU) 2026/1744 on EUR-Lex. Built with AI assistance (Claude); the author reviews the code and coding.</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const ISSUES = ["I1","I2","I3","I4","I5","I6","I7","I8"];
+  const GROUPS = ["Industry","Public-interest and independent","Public authorities"];
+  const SHORT = {"Industry":"Industry","Public-interest and independent":"Public interest","Public authorities":"Authorities","Other":"Other"};
+  const POS = {O:"Opposes",S:"Supports",F:"Go further"};
+  const DIR = {"further":"Final law went further than proposed","same":"Final law kept the proposal","pulled back":"Final law pulled back towards the original AI Act"};
+  const rows = D.rows;
+  const tip = document.getElementById('tip');
+  function showTip(e, html){ tip.innerHTML = html; tip.hidden = false; const x = Math.min(e.clientX + 12, innerWidth - 270); tip.style.left = x + 'px'; tip.style.top = (e.clientY + 14) + 'px'; }
+  function hideTip(){ tip.hidden = true; }
+  const NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent){ const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; }
+
+  // Panels: stacked horizontal bars per group, O | S | F, one shared count scale
+  let maxN = 0; const cnt = {};
+  ISSUES.forEach(i => { cnt[i] = {}; GROUPS.forEach(g => { const c = {O:0,S:0,F:0}; rows.filter(r => r.issue===i && r.group===g).forEach(r => c[r.position]++); cnt[i][g] = c; maxN = Math.max(maxN, c.O+c.S+c.F); }); });
+  const panels = document.getElementById('panels');
+  ISSUES.forEach(i => {
+    const p = document.createElement('div'); p.className = 'panel';
+    p.innerHTML = `<h3>${D.names[i]}</h3><div class="dir">${DIR[D.direction[i]]}</div>`;
+    const W = 320, L = 104, R = 52, rowH = 30, H = GROUPS.length*rowH + 6;
+    const svg = el('svg', {viewBox:`0 0 ${W} ${H}`, width:'100%', role:'img', 'aria-label':`${D.names[i]}: positions by actor group`});
+    const sx = v => v * (W - L - R) / maxN;
+    GROUPS.forEach((g, gi) => {
+      const y = gi*rowH + 6, c = cnt[i][g];
+      el('text', {x:0, y:y+13}, svg).textContent = SHORT[g];
+      let x = L; const tot = c.O + c.S + c.F;
+      if (!tot){ el('text', {x:L, y:y+13, 'font-size':'11'}, svg).textContent = 'No positions'; return; }
+      ["O","S","F"].forEach(k => {
+        if (!c[k]) return;
+        const w = Math.max(sx(c[k]) - 2, 2);
+        const r = el('rect', {x, y, width:w, height:18, rx:3, fill:`var(--${k==='O'?'oppose':k==='S'?'support':'further'})`}, svg);
+        const msg = `<strong>${SHORT[g]}</strong> · ${D.names[i]}<br>${POS[k]}: ${c[k]}`;
+        r.addEventListener('mousemove', e => showTip(e, msg)); r.addEventListener('mouseleave', hideTip);
+        x += w + 2;
+      });
+      el('text', {x:x+4, y:y+13, class:'val'}, svg).textContent = `${c.O}·${c.S}·${c.F}`;
+    });
+    p.appendChild(svg);
+    const t = document.createElement('div'); t.className = 'small'; t.textContent = 'Numbers: opposes · supports · go further';
+    p.appendChild(t);
+    panels.appendChild(p);
+  });
+
+  // Attainment
+  const sc = {"Won":1,"Partly won":0.5,"Lost":0};
+  const att = document.getElementById('att'); let intro = [];
+  GROUPS.forEach(g => {
+    const rs = rows.filter(r => r.group===g && r.outcome in sc);
+    const c = {"Won":0,"Partly won":0,"Lost":0}; rs.forEach(r => c[r.outcome]++);
+    const pct = rs.length ? Math.round(rs.reduce((a,r) => a + sc[r.outcome], 0) / rs.length * 100) : 0;
+    intro.push(`${SHORT[g].toLowerCase()} ${pct}%`);
+    const row = document.createElement('div'); row.className = 'attrow';
+    row.innerHTML = `<div class="lab">${g} <span class="small">(${rs.length} positions)</span></div><div class="bar" role="img" aria-label="${g}: ${c.Won} won, ${c['Partly won']} partly won, ${c.Lost} lost"></div><div class="pct">${pct}%</div>`;
+    const bar = row.querySelector('.bar');
+    [["Won","won"],["Partly won","partly"],["Lost","lost"]].forEach(([k,v]) => {
+      if (!c[k]) return; const d = document.createElement('div');
+      d.style.width = (c[k]/rs.length*100) + '%'; d.style.background = `var(--${v})`;
+      d.addEventListener('mousemove', e => showTip(e, `<strong>${g}</strong><br>${k}: ${c[k]} of ${rs.length}`)); d.addEventListener('mouseleave', hideTip);
+      bar.appendChild(d);
+    });
+    att.appendChild(row);
+  });
+  document.getElementById('attIntro').textContent = `Share of positions matched by the final law, counting partly won as half: ${intro.join(', ')}. Industry won most where the law went further than proposed (high-risk delay, machinery). Public-interest groups mostly gained partial wins where the law pulled back (AI literacy, registration, transparency).`;
+
+  // Browse table
+  const sel = (id, label, opts) => { const s = document.getElementById(id); s.innerHTML = `<option value="">All</option>` + opts.map(([v,t]) => `<option value="${v}">${t}</option>`).join(''); return s; };
+  const fg = sel('fg','Group', ["Industry","Public-interest and independent","Public authorities","Other"].map(g => [g,g]));
+  const fi = sel('fi','Issue', ISSUES.map(i => [i, D.names[i]]));
+  const fp = sel('fp','Position', [["O","Opposes"],["S","Supports"],["F","Go further"]]);
+  const fo = sel('fo','Outcome', [["Won","Won"],["Partly won","Partly won"],["Lost","Lost"],["Unclear","Unclear"]]);
+  const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function render(){
+    const f = rows.filter(r => (!fg.value || r.group===fg.value) && (!fi.value || r.issue===fi.value) && (!fp.value || r.position===fp.value) && (!fo.value || r.outcome===fo.value));
+    document.getElementById('count').textContent = `Showing ${f.length} of ${rows.length} coded positions from 80 sampled organisations`;
+    document.getElementById('tb').innerHTML = f.map(r => `<tr><td>${esc(r.organisation)}</td><td>${esc(SHORT[r.group])}${r.gnote?`<div class="small">Regrouped: ${esc(r.gnote)}</div>`:''}</td><td>${esc(D.names[r.issue])}</td><td><span class="pill p-${r.position}">${POS[r.position]}</span></td><td>${esc(r.outcome)}${r.outcome_note?`<div class="small">${esc(r.outcome_note)}</div>`:''}</td><td><span class="q">“${esc(r.quote)}”</span>${r.note?`<div class="small">${esc(r.note)}</div>`:''}</td></tr>`).join('');
+  }
+  [fg,fi,fp,fo].forEach(s => s.addEventListener('change', render)); render();
+})();
+</script>

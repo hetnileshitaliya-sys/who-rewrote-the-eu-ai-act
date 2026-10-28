@@ -24,7 +24,13 @@ echo.
 echo === Step 5: creating the coding sheet ===
 python 05_coding_sheet.py || goto :error
 echo.
-echo All done. Zip the "texts" and "data" folders and send them to Claude.
+echo === Step 6: scoring positions ===
+python 06_analyse.py || goto :error
+echo.
+echo === Step 7: building the page ===
+python 07_build_page.py || goto :error
+echo.
+echo All done. Open docs\index.html to see the evidence map.
 pause
 exit /b 0
 

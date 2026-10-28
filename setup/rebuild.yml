@@ -1,0 +1,67 @@
+name: Rebuild evidence map
+
+# Re-collects the submissions from the European Commission, checks the sample
+# still matches the coded one, and rebuilds the results and the page.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      download_pdfs:
+        description: "Also download and extract the sampled PDFs (slower)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: 1. Collect submissions from the Have Your Say portal
+        run: python 01_collect.py
+
+      - name: 2. Draw the sample (seed 42)
+        run: python 02_sample.py
+
+      - name: 3-4. Download and extract PDFs
+        if: ${{ inputs.download_pdfs }}
+        run: |
+          python 03_download.py
+          python 04_extract.py
+
+      - name: 6. Score positions against the final law
+        run: python 06_analyse.py
+
+      - name: 8. Second-coder agreement (once the verification sheet is filled in)
+        run: |
+          if python -c "import csv,sys; r=list(csv.DictReader(open('data/verification_sheet.csv',encoding='utf-8-sig'))); sys.exit(0 if any(v.strip() for x in r for k,v in x.items() if k.endswith('_your_code')) else 1)"; then
+            python 08_agreement.py
+          else
+            echo "Verification sheet not filled in yet; skipping."
+          fi
+
+      - name: 7. Build the page
+        run: python 07_build_page.py
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidence-map-results
+          path: |
+            data/coded_sample.csv
+            data/positions_long.csv
+            data/summary.json
+            data/agreement.csv
+            docs/index.html
+          if-no-files-found: ignore

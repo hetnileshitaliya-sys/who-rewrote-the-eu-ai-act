@@ -23,7 +23,12 @@ python 02_sample.py       # coding sample -> data/sample.csv
 python 03_download.py     # attached PDFs -> pdfs/
 python 04_extract.py      # one text file per submission -> texts/
 python 05_coding_sheet.py # blank coding sheet -> data/coding_sheet.csv
+python 06_analyse.py      # score positions against the final law -> data/positions_long.csv, data/summary.json
+python 08_agreement.py    # second-coder agreement, once data/verification_sheet.csv is filled in
+python 07_build_page.py   # evidence map page -> docs/index.html
 ```
+
+GitHub Actions (`.github/workflows/rebuild.yml`) runs the same pipeline on every push: it re-collects the submissions from the Commission, checks that the seed-42 sample still matches the coded one, rescores the positions and rebuilds the page.
 
 On Windows you can double-click `run_all.bat` instead.
 
