@@ -1,0 +1,8 @@
+# Raw submissions stay local: we publish metadata and coding, not full texts
+pdfs/
+texts/
+data/submissions.csv
+data/sample.csv
+data/coding_sheet.csv
+__pycache__/
+*.tgz
