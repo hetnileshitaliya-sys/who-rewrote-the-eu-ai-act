@@ -32,7 +32,7 @@ Both columns were checked on 28 Oct 2026: the proposal against COM(2025)836 and 
 | I3 | AI literacy (Art. 4) | Company duty removed: Commission and Member States "shall encourage" providers and deployers | Providers and deployers must "take measures to support the development of AI literacy"; no guaranteed level (Art. 4(1)) | Pulled back: a softened company duty survives |
 | I4 | Relief for small mid-caps | Extend SME privileges to SMCs (documentation, quality management, lower fine caps) | Extended; SMC defined (Recital 6; Art. 3(14a)–(14b); Art. 17(2)) | Same |
 | I5 | AI Office powers | Exclusive competence over AI systems built on the provider's own GPAI model (excluding Annex I products) and over VLOP/VLOSE systems | Same scope, plus investigation and fining powers set out in the Regulation (Art. 75(1); Arts 75a–75d) | Same scope; powers spelled out in law rather than left to implementing acts |
-| I6 | Special-category data for bias detection | New Art. 4a extending bias-detection processing beyond high-risk systems, with strict conditions | New Art. 4a, "exceptionally" and "to the extent strictly necessary" | Same |
+| I6 | Special-category data for bias detection | New Art. 4a extending bias-detection processing beyond high-risk systems, lowering the test from "strictly necessary" to "necessary" | New Art. 4a, "exceptionally" and "to the extent strictly necessary": the strict-necessity test restored by both Parliament and Council | Pulled back: strict necessity restored |
 | I7 | Registration of exempted systems | Art. 49(2) deleted: no registration, documentation kept on request | Registration in the EU database kept, with streamlined Annex VIII content; Recital 22: registration "remains crucial for effective market surveillance and public accountability" | Pulled back: registration survives in lighter form |
 | I8 | Transparency (Art. 50) timing | Six months for pre-existing generative AI systems: comply by 2 Feb 2027 | Four months: comply by 2 Dec 2026 (Recital 38) | Pulled back: shorter grace period |
 
@@ -50,4 +50,6 @@ Language on the page: "the final law matched these demands", never "these groups
 A second person independently codes 20% of the sample (16 submissions, chosen at random). Agreement is reported per issue (percentage agreement and Cohen's kappa). Disagreements are discussed and the codebook is updated; changes are dated below.
 
 ## Change log
+- 2026-10-29: I6 corrected from Same to Pulled back after checking the Parliament and Council positions.
 - 2026-10-28: first version. Proposal and final-law columns checked against EUR-Lex texts of COM(2025)836 and Regulation (EU) 2026/1744; Direction column added.
+- 2026-10-29: Extended from the 80-submission sample to the full census (270 unique submissions). Added the Individual citizens group (anonymised) and five further regroupings (BSI Group, Spanish Chamber of Commerce, Austrian workers' chamber, Finnish municipalities, German social insurance). Hand-judged outcomes moved to data/outcome_overrides.csv. Verification sample changed to a blind random 10% (27 submissions, seed 2026).

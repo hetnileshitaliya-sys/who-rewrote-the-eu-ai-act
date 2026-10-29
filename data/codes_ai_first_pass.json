@@ -992,5 +992,1894 @@
 "we do not agree with the current approach of doing so at the risk of fundamental changes to the GDPR",
 "Covers GDPR Art 9(2)(k) and AI Act Art 4a together"
 ]
+},
+"Citizen 01": {},
+"Citizen 07": {},
+"Citizen 09": {},
+"Citizen 10": {},
+"Citizen 13": {},
+"Citizen 15": {},
+"Citizen 17": {},
+"Citizen 18": {},
+"33221796": {},
+"Citizen 21": {},
+"Citizen 25": {},
+"Citizen 26": {},
+"33362316": {
+"I1": [
+"S",
+"We agree with the proposal to link the application of certain high-risk obligations to the availability of harmonised standards",
+""
+],
+"I4": [
+"S",
+"The extension of proportionality measures from SMEs to small mid-caps is welcome",
+""
+],
+"I6": [
+"N",
+"",
+"Notes the new legal basis; asks for proportionate, clearly scoped use; no clear position"
+]
+},
+"Citizen 27": {
+"I1": [
+"N",
+"",
+"Understands the delay's rationale but asks for minimum documentation during the transition"
+]
+},
+"Citizen 02": {},
+"Citizen 03": {},
+"Citizen 04": {},
+"Citizen 05": {},
+"Citizen 06": {},
+"Citizen 08": {},
+"Citizen 11": {},
+"Citizen 12": {},
+"Citizen 14": {},
+"Citizen 16": {},
+"Citizen 19": {},
+"Citizen 24": {},
+"Citizen 20": {
+"I3": [
+"N",
+"",
+"German: AI literacy helps digital skills 'wenn richtig umgesetzt'; no position"
+]
+},
+"Citizen 22": {
+"I3": [
+"O",
+"Reinstate the mandatory obligation for AI literacy specifically for deployers of high-risk AI systems in critical sectors",
+""
+],
+"I4": [
+"N",
+"",
+"Wants SMC definition tightened to exclude gatekeeper subsidiaries; no position on the extension itself"
+],
+"I6": [
+"O",
+"Insert an explicit \"hard ban\" within Article 4a prohibiting the use of these datasets for any form of user profiling",
+"Wants stricter safeguards"
+]
+},
+"Citizen 23": {
+"I6": [
+"O",
+"Narrow Scope: Define \"bias detection\" explicitly, prohibit cross-platform aggregation",
+"Treats Art 4a as creating structural profiling risks"
+]
+},
+"33296268": {
+"I3": [
+"S",
+"We support shifting AI literacy competence from business community to Member States and the Commission long-term",
+""
+],
+"I5": [
+"S",
+"We welcome the fact that AI Office will gain exclusive competence for AI systems based on GPAI models",
+""
+],
+"I7": [
+"S",
+"We fully welcome simplification of the registration burden for AI systems exempted from high-risk classification",
+""
+]
+},
+"33363093": {
+"I1": [
+"F",
+"We also need to move the implementation deadline of the EU AI Act by at least 2 years",
+"Also wants fixed dates and GPAI included"
+],
+"I2": [
+"F",
+"We need exemptions from the AI Act for AI applications already regulated – e.g., by the Machinery Directive",
+"Also MDR and rail"
+],
+"I3": [
+"S",
+"This approach reflects stakeholder feedback, acknowledges the diversity of industry needs",
+""
+],
+"I5": [
+"S",
+"By consolidating enforcement within the AI Office, the proposal ensures consistent oversight",
+""
+],
+"I6": [
+"S",
+"This is a crucial improvement that will empower more effective AI training",
+""
+],
+"I7": [
+"S",
+"We also welcome the limitation of registration obligations (Deletion of Art 49(2) of the AI Act)",
+""
+],
+"I8": [
+"F",
+"The Commission must extend the grace period to all provisions of Article 50",
+""
+]
+},
+"33363104": {},
+"33364624": {},
+"33365502": {},
+"33365522": {},
+"33369452": {},
+"33364509": {
+"I1": [
+"F",
+"Delay the application of high-risk requirements until 12 months after harmonised standards are published",
+""
+],
+"I2": [
+"F",
+"Delete Article 6(1) and Annex I to avoid automatic classification of AI components as high-risk or; Merge Sections A and B of Annex I",
+""
+],
+"I7": [
+"S",
+"Delete Art. 49(2) on registration of AI systems within scope of Annex III, but considered non-high-risk",
+"Same as the proposal"
+]
+},
+"33368399": {
+"I6": [
+"S",
+"Article 4a provides welcome legal clarity",
+"Asks for technical refinements to the synthetic-data condition"
+]
+},
+"33368790": {
+"I1": [
+"F",
+"Avoid making postponement decisions dependent on the availability of harmonised standards",
+"Backs the hard backstop dates as fixed dates"
+],
+"I4": [
+"O",
+"Ensure compliance facilitation measures remain risk-based rather than size-based",
+""
+],
+"I5": [
+"N",
+"",
+"Wants a balanced model with notified bodies; no clear position on the AI Office change"
+],
+"I7": [
+"O",
+"Preserve a registration or transparency mechanism for systems self-declared as non-high-risk",
+""
+]
+},
+"33369043": {
+"I1": [
+"N",
+"",
+"German: delay 'erscheint nachvollziehbar' (understandable) but warns against postponing fundamental-rights protection"
+],
+"I6": [
+"O",
+"lediglich die „Sicherheitsmaßnahmen“ („safeguards“)",
+"German: critical that Art 4a weakens the safeguards wording"
+],
+"I7": [
+"O",
+"Mit Blick auf die geplante Streichung von Registrierungspflichten ... muss darauf hingewiesen werden",
+"German: warns against deleting registration for justice-related systems"
+]
+},
+"33369439": {
+"I3": [
+"O",
+"Dieser Vorschlag ist aus Betroffenensicht daher abzulehnen",
+"German: the proposal is to be rejected"
+],
+"I4": [
+"O",
+"Der Vorschlag, die für KMU und Start-Ups vorgesehenen Vereinfachungen derart auf SMCs auszuweiten, ist aus mehrfacher Hinsicht abzulehnen",
+"German: to be rejected"
+],
+"I6": [
+"O",
+"Art 10 Abs 5 KI-VO sollte unverändert bestehen bleiben",
+"German: Art 10(5) should stay unchanged"
+],
+"I7": [
+"O",
+"Der Vorschlag diese Registrierungsverpflichtungen zu streichen, ist deshalb aus Sicht der BAK abzulehnen",
+"German: to be rejected"
+],
+"I1": [
+"O",
+"was von der BAK jedenfalls abgelehnt wird. Die Verschiebung bringt weitere Rechtsunsicherheit und wird daher entschieden abgelehnt",
+"German: postponement firmly rejected"
+]
+},
+"33370323": {
+"I1": [
+"F",
+"Fix application dates at December 2027 (Annex III) and August 2028 (Annex I)",
+""
+],
+"I2": [
+"F",
+"Merge Annex I Sections A and B to embed high-risk AI requirements into sectoral legislation",
+""
+],
+"I3": [
+"S",
+"making AI literacy obligations voluntary for companies",
+"Listed among positive changes"
+],
+"I4": [
+"S",
+"extending SME relief measures to small mid-cap companies",
+"Listed among positive changes"
+],
+"I7": [
+"S",
+"removing the registration requirement for non-high-risk AI systems",
+"Listed among positive changes"
+],
+"I8": [
+"F",
+"Extend the Article 50 grace period to 12 months",
+""
+],
+"I6": [
+"S",
+"A new legal basis for data processing to mitigate bias in AI systems ... also improve coherence. These changes should be preserved",
+""
+]
+},
+"33371083": {
+"I3": [
+"S",
+"Clearer and less burdensome AI literacy requirements than those currently envisaged in the AI Act would be welcome",
+"'Support and require modifications'"
+],
+"I4": [
+"S",
+"FEDMA welcomes the Commission's efforts to simplify the digital acquis and the AI Act, particularly for SMEs and small midcap companies",
+""
+],
+"I6": [
+"S",
+"Bias detection and mitigation Art. 4a 'amended' AI Act (page 12) Full support",
+"Summary table"
+]
+},
+"33371171": {
+"I1": [
+"F",
+"Remove timeline caps and include instead a transition period of 12 months",
+"12 months after standards are cited"
+],
+"I3": [
+"S",
+"Adigital agrees with shifting the responsibility for fostering AI literacy to the Commission and Member States",
+""
+],
+"I4": [
+"S",
+"Adigital strongly welcomes the extension of simplified technical documentation requirements and proportionality in penalties to SMCs",
+""
+],
+"I5": [
+"S",
+"We back strengthening the AI Office's role as enforcer",
+""
+],
+"I6": [
+"S",
+"Adigital supports the explicit legal basis allowing the processing of special categories of personal data for bias detection",
+""
+],
+"I7": [
+"S",
+"Reducing registration requirements is positive",
+""
+],
+"I8": [
+"F",
+"The proposed six-month grace period is insufficient",
+""
+]
+},
+"Citizen 28": {},
+"33374080": {
+"I1": [
+"O",
+"Aplazamiento injustificado de la protección frente a sistemas de alto riesgo",
+"Spanish: unjustified postponement"
+],
+"I3": [
+"S",
+"Valoramos positivamente que el nuevo mandato de fomento de la alfabetización en IA exija considerar explícitamente el contexto de uso",
+"Spanish: welcomes the new promotion mandate"
+],
+"I4": [
+"O",
+"Advertimos que esta simplificación imposibilita la detección de sesgos complejos o interseccionales",
+"Spanish: simplified SMC documentation blocks bias detection"
+],
+"I6": [
+"S",
+"Esta medida es esencial para evitar la discriminación automatizada",
+"Spanish: essential; wants disability-specific safeguards"
+],
+"I7": [
+"O",
+"instamos a rechazar las modificaciones del Ómnibus que eliminan esta salvaguardia y a restaurar íntegramente la obligación de registro",
+"Spanish: restore registration in full"
+]
+},
+"33375269": {},
+"33375405": {},
+"33371289": {
+"I1": [
+"F",
+"les dates butoirs fixées ... pourraient ne pas répondre pleinement aux besoins opérationnels des entreprises",
+"French: backstop dates may not meet companies' needs"
+],
+"I4": [
+"S",
+"L’extension de plusieurs mesures à des entreprises de taille intermédiaire (Small and Middle Cap – SMC) est particulièrement bienvenue",
+"French: particularly welcome"
+],
+"I6": [
+"S",
+"de traiter certaines catégories particulières de données pour détecter et corriger des biais contribue à renforcer la fiabilité",
+"French: listed as a positive change"
+]
+},
+"33372608": {
+"I1": [
+"F",
+"Separate the postponement from the rest of the proposal and postpone the high-risk requirements for 24 months",
+""
+],
+"I2": [
+"F",
+"Horizontal AI Act obligations should be embedded into sectoral legislation, with Annex I operating as lex specialis",
+""
+],
+"I5": [
+"S",
+"stronger enforcement powers for the Commission, including AI Office-centralised enforcement for AI systems based on GPAI models",
+"Listed as positive; also wants a mediating role"
+],
+"I6": [
+"S",
+"While we support the intention, the resulting new article does not bring much more clarity",
+"Supports with refinements; wants GDPR alignment"
+],
+"I7": [
+"S",
+"Bitkom explicitly welcomes ... the reduction of the registration burden",
+""
+],
+"I8": [
+"F",
+"the proposed grace period should also cover Article 50(4) and be extended to 12 months",
+""
+]
+},
+"33372698": {
+"I1": [
+"F",
+"the extensions of 12–18 months remain insufficient",
+""
+],
+"I8": [
+"F",
+"The need to seriously consider extensions also applies to Article 50",
+""
+]
+},
+"33372946": {
+"I3": [
+"S",
+"This approach appropriately reflects the diverse structures and contexts of the relevant parties",
+""
+]
+},
+"33373706": {
+"I1": [
+"F",
+"Telefónica proposes a single deadline of August 2028 for both annexes",
+""
+],
+"I3": [
+"S",
+"Telefónica welcomes several proposals ... including adjustments to AI literacy obligations",
+""
+],
+"I5": [
+"S",
+"Telefónica supports the strengthening of the AI Office’s role",
+""
+],
+"I6": [
+"S",
+"Telefónica welcomes the legal basis introduced in Article 4a",
+"Wants clarification of 'necessary and proportionate'"
+],
+"I7": [
+"S",
+"Telefónica supports removing the registration requirement for Annex III systems that are not high-risk",
+""
+]
+},
+"33373874": {
+"I1": [
+"F",
+"PROVIDE CERTAINTY ON THE DATE OF APPLICATION OF REQUIREMENTS ON HIGH-RISK AI SYSTEMS",
+"Welcomes the delay; asks for certain dates"
+],
+"I8": [
+"F",
+"including extending the proposed postponement to transparency obligations",
+""
+]
+},
+"33374020": {
+"I1": [
+"F",
+"A fixed at-the-earliest-deadline no earlier than December 2027 combined with a ready check",
+""
+],
+"I3": [
+"S",
+"We therefore support removing it as a direct requirement on companies and authorities",
+""
+],
+"I4": [
+"S",
+"We support the extension of the SME exemptions to also cover Small MidCap enterprises (SMCs)",
+""
+],
+"I6": [
+"S",
+"Insurance and Pension Denmark support the introduction of article 4(a)",
+""
+],
+"I7": [
+"S",
+"Insurance and Pension Denmark support the amendment to Article 6(4) removing the registration requirement",
+""
+]
+},
+"33374367": {
+"I1": [
+"S",
+"While we welcome the delay in the application of certain high-risk AI rules",
+""
+],
+"I8": [
+"F",
+"recommends extending it to all provisions of Article 50, including a longer postponement than 6 months",
+""
+]
+},
+"33375260": {
+"I1": [
+"F",
+"A fixed application date from December 2027 for all high- risk AI would better reflect the actual implementation cycles",
+""
+],
+"I3": [
+"S",
+"is generally to be welcomed, as it dispenses with a rigid, normatively over -regulated training obligation",
+""
+],
+"I6": [
+"S",
+"The GBIC welcomes this approach",
+""
+],
+"I7": [
+"S",
+"the removal of the registration requirement can be considered a pragmatic measure to reduce administrative burdens",
+""
+]
+},
+"33375378": {
+"I1": [
+"S",
+"Aligning the application of high-risk AI obligations with the availability of technical standards ... is essential",
+""
+],
+"I2": [
+"F",
+"The medical devices precedent - shifting from Annex I Section A to Section B - should be extended to all NLF-covered AI systems",
+""
+],
+"I4": [
+"S",
+"the explicit extension of certain flexibilities from SMEs to small mid-cap companies (SMCs)",
+""
+],
+"I6": [
+"S",
+"we welcome this expansion as a meaningful step toward reducing practical barriers",
+""
+],
+"I7": [
+"S",
+"The explicit removal of registration requirements under Article 49(2) for such systems enhances legal certainty",
+""
+]
+},
+"33375558": {
+"I1": [
+"F",
+"High-risk obligations should apply 12 months after the formal adoption of relevant standards ... or by a clear backstop date of 2 June 2028",
+""
+]
+},
+"33376030": {},
+"Citizen 29": {},
+"33376985": {},
+"33377012": {},
+"33377187": {},
+"33377801": {},
+"33378193": {},
+"33375791": {
+"I4": [
+"S",
+"a proportionate QMS, simplified Annex IV technical documentation, and penalty caps, are useful measures",
+"Says they do not remove MDR/IVDR duplication"
+]
+},
+"33377008": {
+"I6": [
+"O",
+"The processing of children’s data for ‘bias detection and mitigation’ must be prevented",
+""
+]
+},
+"Citizen 30": {
+"I1": [
+"S",
+"Linking the implementation timeline for high-risk AI obligations to the availability of harmonized technical standards is a pragmatic victory",
+""
+],
+"I4": [
+"S",
+"The proposal to extend SME exceptions to small midcaps (up to 499 employees) reflects the operational reality",
+""
+],
+"I5": [
+"S",
+"Empowering the AI Office to lead the oversight of general-purpose AI models is essential",
+""
+],
+"I6": [
+"S",
+"an example of necessary first-principles thinking",
+""
+]
+},
+"33377565": {
+"I1": [
+"F",
+"We recommend maintaining a single deadline",
+"Wants one date for Annex I and III"
+],
+"I3": [
+"S",
+"We believe the European Commission and Member States have a better overview of ensuring AI literacy",
+""
+],
+"I4": [
+"S",
+"We support the introduction of exemptions for small mid‑cap companies (SMCs)",
+""
+],
+"I5": [
+"S",
+"We support the amendment to Art 75 of the AI Act, to make the AI Office exclusively competent",
+""
+],
+"I6": [
+"S",
+"We support broadening the legal basis for processing special categories of personal data",
+""
+],
+"I7": [
+"S",
+"We support to remove the disproportionate registration obligation for Annex III AI systems",
+""
+],
+"I8": [
+"F",
+"Allow more time for compliance with watermarking obligations under Article 50(7)",
+""
+]
+},
+"33377653": {
+"I1": [
+"F",
+"e.g. 12 months between publication of the standards and application",
+""
+]
+},
+"33378160": {
+"I1": [
+"O",
+"Fristverschiebungen verhindern",
+"German: prevent postponements; if unavoidable, one fixed date of 2 October 2027"
+],
+"I3": [
+"S",
+"die EU-Kommission und nationale staatliche Stellen einzubinden ist daher ein guter Vorschlag",
+"German: a good proposal"
+],
+"I6": [
+"S",
+"Dass Anbieter solcher Systeme in Ausnahmen besondere Kategorien personenbezogener Daten verarbeiten dürfen, um Verzerrungen zu verhindern, ist sinnvoll",
+"German: sensible; safeguards must be kept"
+],
+"I7": [
+"O",
+"der Registrierungspflicht auch für KI-Systeme, die nicht hochriskant sind ... in einem vereinfachten Verfahren",
+"German: keep registration in a simplified form"
+]
+},
+"33378218": {
+"I1": [
+"S",
+"We strongly support linking the entry into application for high-risk AI rules to the availability of harmonized standards",
+""
+],
+"I2": [
+"S",
+"A single assessment and application process for AI systems falling under both the AI Act and other sectoral laws ... is strongly welcomed",
+""
+],
+"I3": [
+"S",
+"a collaborative effort led by the Commission and the Member States is a better approach",
+""
+],
+"I4": [
+"S",
+"The proposal to extend SME-specific regulatory privileges to Small Mid-Caps (SMCs) is relevant",
+""
+],
+"I5": [
+"O",
+"This raises the question of its independence",
+"Opposes AI Office pre-market role under Art 75"
+],
+"I6": [
+"S",
+"We welcome the proposed amendments as a positive step",
+""
+],
+"I7": [
+"S",
+"Reducing the registration burden ... is a sensible proposal",
+""
+],
+"I8": [
+"F",
+"A 12-month extension for the application of Article 50 would be feasible",
+""
+]
+},
+"33378350": {
+"I1": [
+"S",
+"Link the application of high-risk obligations to clear triggers tied to the availability of all compliance measures",
+""
+],
+"I8": [
+"F",
+"Support postponement of Article 50 and extend the grace period from six to twelve months",
+""
+]
+},
+"33378828": {},
+"33378842": {},
+"33378980": {},
+"33379428": {},
+"33379687": {},
+"33379756": {},
+"33378919": {
+"I1": [
+"S",
+"ETL supports the “stop the clock” solution",
+"Wants it adopted separately and fast"
+],
+"I3": [
+"S",
+"the obligation to promote AI literacy is assigned to Member States and the Commission rather than to companies",
+""
+]
+},
+"33378922": {
+"I4": [
+"S",
+"Another vital good practice is the extension of simplified compliance measures ... to small mid-cap companies",
+""
+]
+},
+"33378985": {
+"I1": [
+"O",
+"KAN is critical of the amendments proposed in Article 1(31) ... to Article 113",
+"Wants Annex I and III dates synchronised"
+],
+"I2": [
+"S",
+"From KAN's point of view, this is a positive and important step, as it contributes to a higher level of safety",
+"Backs keeping AI checks inside the Section A procedure"
+],
+"I4": [
+"O",
+"Extending SME-specific exceptions to companies of this size would considerably widen the group of providers benefiting",
+""
+],
+"I7": [
+"O",
+"KAN therefore advocates retaining the registration obligation and keeping Article 6(4) of the AI Act in its original version",
+""
+]
+},
+"33379354": {
+"I3": [
+"S",
+"Transferring responsibility for promoting AI literacy to the Member States and competent authorities is welcome but cannot remain merely an encouragement",
+"Wants 'shall support' instead of 'encourage'"
+]
+},
+"33379364": {
+"I1": [
+"F",
+"cette approche ne saurait être considérée comme suffisante",
+"French: stop-the-clock welcome but not enough"
+],
+"I2": [
+"F",
+"le Règlement Machines devrait être déplacé de la section A vers la section B",
+"French: move Machinery Regulation to Section B"
+]
+},
+"33379395": {
+"I1": [
+"F",
+"Avoid conditional delays tied to harmonised standards and keep any postponements strictly timelimited",
+"Wants fixed, time-limited dates; warns delay leaves users exposed"
+],
+"I2": [
+"S",
+"Proposals to move Annex I Section A legislation to Section B would disrupt the AI Acts horizontal design",
+"Structure should remain unchanged"
+]
+},
+"33379697": {
+"I1": [
+"F",
+"Nous préconisons la fixation de dates d'application fermes",
+"French: fixed application dates"
+],
+"I8": [
+"F",
+"Porter le report des obligations de l’article 50 de 6 à 12 mois",
+"French: 6 to 12 months"
+],
+"I6": [
+"F",
+"Simplifier les critères permettant de justifier la récolte de données dites « sensibles » afin de réduire les biais des modèles d’IA",
+"French: simplify the criteria"
+]
+},
+"33379769": {
+"I1": [
+"F",
+"aligning them to a single date: 2 August 2028",
+""
+],
+"I2": [
+"S",
+"We agree and further propose to: Explicitly state the principle of one conformity assessment, one audit, and one set of documentation",
+""
+],
+"I3": [
+"S",
+"We agree and further propose to: Clarify that providers’ and deployers’ role in AI literacy is only supportive",
+""
+],
+"I4": [
+"S",
+"Extend regulatory simplifications granted to SMEs to small mid-caps ... We agree",
+""
+],
+"I6": [
+"S",
+"We are aligned with this proposal",
+""
+],
+"I7": [
+"F",
+"Reduce administrative burden around registration in general, not only by abolishing non-high-risk AI systems falling under article 6(3)",
+""
+]
+},
+"33379788": {
+"I1": [
+"F",
+"Die derzeit vorgesehenen Anwendungszeitpunkte ... sind angesichts fehlender harmonisierter Standards",
+"German: dates unrealistic; also wants a one-year sanctions moratorium"
+],
+"I2": [
+"F",
+"Besonders kritisch ist die Überlagerung der KI-VO mit bestehenden sektorspezifischen Regelungen, etwa der Machinery Regulation",
+"German: overlap with Machinery Regulation"
+],
+"I3": [
+"S",
+"sollte es Aufgabe und ureigenes Interesse der Mitgliedstaaten sein",
+"German: AI literacy should be the Member States' task"
+]
+},
+"33379936": {},
+"33380081": {},
+"33380195": {},
+"33380237": {},
+"33379819": {
+"I3": [
+"S",
+"The modification to Article 4 AI Act (AI literacy), which shifts the provision from a binding obligation to a policy objective ... is positive",
+""
+]
+},
+"33379865": {
+"I1": [
+"F",
+"We support the postponement of the implementation of the rules on High-Risk AI (HRAI) in a manner that sets forth clear timelines",
+""
+],
+"I7": [
+"F",
+"Prosus strongly believes that the registration requirement should be removed altogether",
+""
+],
+"I8": [
+"F",
+"the extension should cover not only the AI systems that have been placed on the market before 2 August 2026",
+""
+]
+},
+"33380013": {
+"I1": [
+"F",
+"Clearly defined compliance deadline for high-risk systems of August 2028",
+""
+],
+"I6": [
+"S",
+"This would enhance legal clarity for companies with regards the processing of such special categories",
+""
+],
+"I7": [
+"S",
+"Provisions that SAP fully supports and recommends their retaining: 1. Remove the registration obligations",
+""
+],
+"I8": [
+"F",
+"The transition period should be extended to 12 months following finalization of the Code of Practice",
+""
+]
+},
+"33380103": {
+"I1": [
+"F",
+"Set a single fixed deadline of 2 August 2028 for application of all high-risk AI systems requirements",
+""
+],
+"I5": [
+"S",
+"We welcome the proposed modification of Article 75(1) that grants the AI Office exclusive competence",
+""
+],
+"I6": [
+"F",
+"we urge its extension beyond high-risk AI systems",
+"Wants GPAI models and red-teaming covered"
+]
+},
+"33380105": {
+"I1": [
+"F",
+"Paris Europlace WG expresses concerns regarding the European Commission’s ability to shorten these extended deadlines",
+"Supports the dates; wants them fixed"
+],
+"I3": [
+"S",
+"The requalification of AI literacy requirements for companies as a best practice rather than a strict regulatory obligation",
+""
+],
+"I6": [
+"S",
+"The possibility to use sensitive data under strict safeguards for the purposes of bias identification",
+""
+],
+"I7": [
+"S",
+"The removal of the obligation to register high-risk AI systems benefiting from exemption mechanisms",
+""
+]
+},
+"33380127": {
+"I1": [
+"F",
+"as a fallback option ... a clear and unambiguous deadline for compliance with the high-risk obligations under Annex III, set at 2 December 2027",
+"First choice: 12 months after standards"
+],
+"I7": [
+"S",
+"DPE strongly supports maintaining the registration exemption for non-high-risk AI systems",
+""
+]
+},
+"33380143": {
+"I1": [
+"F",
+"we propose to further simplify and clarify this provision with a set date of 2 August 2028 for both Annex I and III",
+""
+],
+"I7": [
+"S",
+"IBM also welcomes the clarification that AI systems ... will be exempted from registration",
+""
+],
+"I8": [
+"F",
+"We therefore recommend introducing a 12‑month grace period applicable to all systems falling under Article 50",
+""
+]
+},
+"33380176": {
+"I1": [
+"F",
+"The Omnibus should establish a single date of 2 August 2028 for both Annex I and Annex III systems",
+""
+],
+"I2": [
+"F",
+"We support the Commission’s proposal in the MDR/IVDR targeted revisions to move the MDR/IVDR from Section A of Annex I of the AI Act to Section B",
+""
+],
+"I8": [
+"F",
+"the Omnibus should extend the compliance period for Article 50 to at least one year",
+""
+]
+},
+"33380183": {
+"I1": [
+"F",
+"The Omnibus should establish a single date of 2 August 2028 for both Annex I and Annex III systems",
+""
+],
+"I7": [
+"S",
+"Remove or reduce requirement to register non-high risk AI systems",
+""
+],
+"I8": [
+"F",
+"Extend compliance period for Art 50 to at least one year, to apply to new systems as well as those on the market",
+""
+]
+},
+"33380198": {
+"I6": [
+"S",
+"Ecommerce Europe supports the introduction of a specific legal basis for processing special categories of data for bias detection and correction",
+""
+]
+},
+"33380238": {
+"I1": [
+"S",
+"We support the Commission proposal to link the entry into application of the rules governing high-risk AI systems to the availability of support tools",
+""
+],
+"I4": [
+"S",
+"We support the introduction of exemptions for small mid‑cap companies (SMCs)",
+""
+]
+},
+"33380293": {},
+"33380302": {},
+"33380304": {},
+"33380322": {},
+"33380358": {},
+"33380416": {},
+"33380438": {},
+"33380445": {},
+"33380458": {},
+"33380441": {
+"I2": [
+"N",
+"",
+"Raises questions about gaps if MDR moves to Section B; no clear position"
+]
+},
+"33380250": {
+"I1": [
+"F",
+"flexibility must not come at the expense of predictability",
+"Wants fixed dates (Dec 2027 / Aug 2028)"
+],
+"I3": [
+"S",
+"BESCO supports: - Maintaining the removal of the binding AI literacy obligation",
+""
+],
+"I4": [
+"S",
+"The extension of SME-level simplifications to small mid-caps is a positive step",
+""
+],
+"I6": [
+"S",
+"BESCO supports maintaining this clarification",
+""
+]
+},
+"33380266": {
+"I8": [
+"F",
+"Extend the proposed postponement of the AI Acts application (Art. 113) to cover transparency obligations under Art. 50",
+""
+]
+},
+"33380305": {
+"I1": [
+"O",
+"at a bare minimum, the delay should not be linked to the adoption of a Commission decision, but instead should be set at the date of 1 December 2026",
+"Opposes the delay; fallback is shorter fixed dates"
+],
+"I4": [
+"O",
+"Reject the expansion of small and medium enterprise (SME) privileges to small and mid-cap enterprises (SMCs)",
+""
+],
+"I6": [
+"O",
+"Protect against the misuse of sensitive data for bias detection by deleting AI Omnibus Article 1.(5) (AI Act new Article 4a) entirely",
+""
+],
+"I7": [
+"O",
+"Maintain the Article 49(2) transparency safeguard",
+""
+]
+},
+"33380365": {
+"I1": [
+"F",
+"postponing obligations for high-risk AI systems until twelve months after harmonised standards are published",
+""
+]
+},
+"33380457": {
+"I1": [
+"F",
+"the proposal on deadlines should have been fast-tracked",
+"Welcomes postponement; points to fixed Council/Parliament deadlines as preferable"
+]
+},
+"33380461": {},
+"33380475": {},
+"Citizen 31": {},
+"Citizen 32": {},
+"33380515": {},
+"Citizen 33": {},
+"33380523": {},
+"33380560": {},
+"33380564": {},
+"33380604": {},
+"33380578": {
+"I6": [
+"S",
+"A legal basis for the limited processing of special-category data for bias detection and mitigation in AI systems is essential",
+"Wants it anchored in GDPR Art 9"
+]
+},
+"33380583": {
+"I1": [
+"O",
+"Maintain High-Risk AI System Timeline in Article 113, Chapter III of the AI Act",
+""
+],
+"I3": [
+"O",
+"Prevent significant weakening of AI developers’ and deployers’ responsibility to ensure AI literacy for their staff",
+""
+],
+"I4": [
+"O",
+"the potentially problematic implications of the creation of a new category of the so-called Small Mid-Caps (SMCs)",
+"Not a core recommendation"
+],
+"I6": [
+"O",
+"Preserve Strict Necessity and Fundamental Rights Safeguards in Article 10(5) AI Act When Introducing Article 4a",
+"Accepts expansion only with strict necessity"
+],
+"I7": [
+"O",
+"Preserve AI System Registration Requirements under Article 49(2) of the AI Act",
+""
+]
+},
+"33380587": {
+"I1": [
+"S",
+"Eurosmart supports the overall intention to postpone the entry into application of requirements for high-risk AI systems",
+""
+],
+"I6": [
+"S",
+"Eurosmart welcomes the introduction of Article 4a",
+"Wants EU-only data handling added"
+]
+},
+"33380606": {
+"I4": [
+"S",
+"Extension of SME/SMC regulatory privileges across the digital acquis",
+"Listed among positive measures"
+],
+"I7": [
+"S",
+"Aena supports removing the obligation to register systems deemed non–high-risk",
+""
+]
+},
+"33380610": {
+"I1": [
+"S",
+"both the delay in the obligations applying to high-risk AI systems and the introduction of European sandboxes are positive developments",
+""
+],
+"I3": [
+"S",
+"It also opposes the reintroduction of mandatory AI training for businesses",
+""
+],
+"I4": [
+"S",
+"seems at first glance to be a positive and encouraging proposal. In practice, though, this flexibility turns out to be largely symbolic",
+"Wants more relief"
+],
+"I6": [
+"S",
+"The return to the threshold of 'strict necessity' ... is particularly problematic",
+"Opposes Parliament's change; backs the proposal"
+]
+},
+"33380640": {},
+"33380670": {},
+"33380673": {},
+"33380677": {},
+"33380679": {},
+"33380690": {},
+"33380722": {},
+"33380620": {
+"I1": [
+"F",
+"FESI strongly supports the introduction of clear, fixed deadlines instead of relying on guidance or the future availability of support tools",
+"Suggests 2 August 2028 for both annexes"
+],
+"I3": [
+"S",
+"FESI welcomes this proposal and recommends keeping this amendment",
+""
+]
+},
+"33380634": {
+"I1": [
+"F",
+"obligations should apply x months after the publication of the relevant guidelines, with a clearly defined ultimate backstop date",
+""
+]
+},
+"33380658": {
+"I1": [
+"S",
+"begrüßt die DSV deshalb das Vorhaben, den Zeitpunkt des Inkrafttretens der Vorschriften für Hochrisiko-KI nach hinten zu verlegen",
+"German: welcomes the postponement linked to standards"
+],
+"I7": [
+"S",
+"Darüber hinaus begrüßt die DSV die vorgeschlagene Anpassung von Artikel 6 Absatz 4 der KI-Verordnung",
+"German: welcomes removal of registration"
+]
+},
+"33380675": {
+"I1": [
+"F",
+"we strongly suggest setting December 2027 as the postponed application date, thus deleting the transitional period of 6 months",
+""
+],
+"I6": [
+"F",
+"we call for a clear extension of the Art. 4a (1) ... to all AI Systems",
+""
+],
+"I7": [
+"S",
+"While we understand the need to remove the registration requirement ... we would therefore strongly recommend maintaining (more limited) transparency obligations",
+"Accepts removal but wants deployers informed"
+],
+"I8": [
+"F",
+"We ask to align the applicability deadlines for machine-readable markers in AI-generated content with those set for high-risk AI systems",
+""
+]
+},
+"33380686": {
+"I1": [
+"S",
+"the framework avoids imposing obligations before the necessary technical guidance exists",
+""
+],
+"I2": [
+"S",
+"this streamlines the availability of notified bodies to certify complex products such as AI medical devices, becoming a beneficial modification for the sector",
+""
+],
+"I3": [
+"S",
+"AseBio welcomes this modification",
+""
+],
+"I4": [
+"S",
+"AseBio welcomes the inclusion of small mid-cap enterprises (SMCs)",
+""
+],
+"I5": [
+"S",
+"supporting the strengthening of the AI Office’s role as an executive authority",
+""
+],
+"I6": [
+"S",
+"AseBio welcomes the introduction of a new horizontal provision allowing the processing of sensitive personal data for bias detection",
+""
+]
+},
+"33380697": {
+"I1": [
+"F",
+"suggest a single, clear 2028 application date for both Annex III and Annex I",
+"Also wants stop-the-clock carved out"
+],
+"I3": [
+"O",
+"We do not support the Commission’s proposal to amend Art. 4 of the AI Act",
+""
+],
+"I4": [
+"O",
+"Preserve consistent requirements regardless of company size",
+""
+],
+"I6": [
+"N",
+"",
+"Asks for clarification that bias duty does not oblige collecting sensitive data; no clear position"
+],
+"I7": [
+"S",
+"we endorse the proposed amendments to Art. 6(4) of the AI Act relating to the registration of AI systems",
+""
+]
+},
+"33380700": {
+"I8": [
+"F",
+"se recomienda posponer la obligación de text-watermarking hasta 12 meses después",
+"Spanish: postpone text watermarking 12 months"
+]
+},
+"33380702": {
+"I3": [
+"O",
+"Safeguarding AI Literacy in the AI Act: Why Article 4 Should Be Preserved",
+""
+]
+},
+"33380724": {},
+"33380734": {},
+"33380753": {},
+"33380760": {},
+"33380770": {},
+"33380779": {},
+"33380726": {
+"I1": [
+"F",
+"we require a reasonable minimum period for implementation which should not be less than 24 months ... starting only after publication of the Commission guidelines, standards",
+""
+],
+"I3": [
+"S",
+"E.ON shares the Commission's analysis that it is difficult if not impossible to enforce an obligation that must be implemented individually by each company",
+""
+]
+},
+"33380759": {
+"I1": [
+"S",
+"Tying the entry into force of high-risk AI rules to the readiness of technical standards and support tools ... are reasonable proposals",
+""
+],
+"I3": [
+"O",
+"Retaining this obligation allows us to preserve a flexible",
+"Wants company AI literacy duty kept"
+],
+"I8": [
+"S",
+"introducing a “grace period” for labelling AI-generated content are reasonable proposals",
+""
+]
+},
+"33380773": {
+"I1": [
+"F",
+"Key demand: Extension of deadlines for high-risk AI (Art. 6) by 24 months",
+""
+],
+"I2": [
+"F",
+"the Machinery Regulation and the Radio Equipment Directive, should therefore be moved to Annex I (B) of the AI Act",
+""
+],
+"I7": [
+"S",
+"The ZVEI supports the streamlining of registration requirements and their corresponding deletion in the current omnibus draft",
+""
+],
+"I8": [
+"F",
+"The corresponding deadline should therefore be extended by 12 months to 2 August 2027",
+""
+]
+},
+"33380780": {
+"I5": [
+"S",
+"we recognise the logic of centralising enforcement of AI systems based on general-purpose AI (GPAI) models within the AI Office",
+"Says the AI Office needs far more staff"
+]
+},
+"33380782": {
+"I1": [
+"F",
+"we recommend aligning the deadlines for Annex I and Annex III by applying the Annex I deadline of 2 August 2028 as a fixed date, for both Annexes",
+""
+],
+"I3": [
+"S",
+"Decathlon welcomes the Commission's proposal to shift the primary AI literacy obligation",
+""
+],
+"I5": [
+"S",
+"We believe that the AI Office should have a stronger enforcement role",
+""
+],
+"I6": [
+"S",
+"We support broadening the legal basis for processing special categories of personal data",
+""
+]
+},
+"33380800": {
+"I1": [
+"F",
+"the entry into force of the rules for high-risk AI systems listed in Annex III be postponed so that they take effect at the same time as the rules for systems listed in Annex I",
+""
+],
+"I6": [
+"O",
+"it should be considered whether it is proportionate to allow the processing of special categories of personal data",
+"Suggests limiting to ordinary personal data"
+],
+"I7": [
+"S",
+"The Danish Chamber of Commerce welcomes ... the proposal to remove the registration requirement in Article 49(2)",
+""
+]
+},
+"33380804": {
+"I1": [
+"F",
+"fixed deadlines should be preserved over a flexible rolling system",
+""
+],
+"I3": [
+"O",
+"the association recommends keeping the obligation but clarifying its scope",
+""
+],
+"I6": [
+"S",
+"BDVA supports broadening the scope of the exemption but urges a tiered approach",
+""
+],
+"I7": [
+"S",
+"BDVA is in favour of the proposed amendments",
+"Wants the AI Office to monitor misuse"
+],
+"I8": [
+"F",
+"it should be extended to deployers as well as providers",
+""
+]
+},
+"33380813": {
+"I1": [
+"F",
+"the currently envisaged deadlines remain unrealistic for the medical technology sector",
+""
+],
+"I2": [
+"F",
+"We support a sectoral approach for AI in medical devices ... with medical devices regulated under a single legislation",
+""
+],
+"I8": [
+"F",
+"The application of Article 50(2) should therefore be aligned with the timelines for high-risk obligations",
+""
+]
+},
+"33380815": {
+"I1": [
+"F",
+"Establish a fixed deadline of Dec 2, 2027, coupled with a guaranteed 12-month implementation window after standards are finalised",
+""
+],
+"I4": [
+"N",
+"",
+"Does not oppose SMC relief but warns about downstream blind spots"
+],
+"I6": [
+"S",
+"Workday supports the introduction of a legal basis (Article 4a)",
+""
+],
+"I7": [
+"S",
+"Workday supports the amendment to limit registration in the EU database solely to actual high-risk AI systems",
+""
+]
+},
+"33380869": {},
+"33380880": {},
+"33380893": {},
+"33380821": {
+"I1": [
+"S",
+"By introducing a ‘stop-the-clock’ mechanism, the Commission can provide businesses with much needed time",
+"Wants it widened to GPAI rules"
+],
+"I5": [
+"F",
+"The EU AI Office should be granted authority for enforcement of low-risk AI systems encompassed under Article 50",
+""
+]
+},
+"33380822": {
+"I1": [
+"S",
+"Linking the application of high-risk obligations to the availability of harmonised standards, guidance, and compliance tools is a pragmatic and necessary step",
+""
+],
+"I3": [
+"S",
+"ACT further welcomes the shift away from vague, horizontal obligations related to AI literacy",
+""
+],
+"I4": [
+"S",
+"ACT also supports extending SME-specific simplifications to small mid-cap companies",
+""
+],
+"I6": [
+"S",
+"ACT recognises the importance of clarifying lawful pathways for bias detection and correction",
+"Says it should be subject to strict necessity"
+],
+"I7": [
+"S",
+"The Omnibus also introduces meaningful reductions in administrative burden through simplified documentation, registration",
+""
+]
+},
+"33380832": {
+"I1": [
+"F",
+"An application date of 2 December 2027 would appear reasonable and proportionate",
+"Fixed date"
+]
+},
+"33380853": {
+"I1": [
+"F",
+"Obligations for high-risk AI systems should apply a fixed number of months after the publication of the relevant guidelines, with a clearly defined backstop date",
+""
+],
+"I4": [
+"S",
+"Extend SME-style regulatory simplifications to SMCs",
+""
+]
+},
+"33380861": {
+"I2": [
+"S",
+"The proposal to streamline ... alignment with medical device legislation is welcomed",
+""
+],
+"I3": [
+"N",
+"",
+"Recognises Article 4's importance; asks for roles to be clarified"
+]
+},
+"33380865": {
+"I1": [
+"F",
+"Replacing reliance on the availability of “adequate measures in support of compliance” with a fixed deadline of 24 months for high-risk AI systems covered by both Annex I and III",
+""
+],
+"I6": [
+"S",
+"We welcome the introduction of Article 4a",
+""
+],
+"I7": [
+"S",
+"We welcome the removal of the obligation to register AI systems in the EU database",
+""
+],
+"I8": [
+"F",
+"We therefore recommend extending the grace period to 12 months",
+""
+]
+},
+"33380871": {
+"I1": [
+"F",
+"the Digital Omnibus could introduce clear and fixed application dates for obligations related to high-risk systems",
+"Event summary"
+]
+},
+"33380875": {
+"I1": [
+"F",
+"AIM therefore recommends aligning the applicability date for both Annex I and Annex II high-risk systems to a single fixed date of 2 August 2028",
+""
+],
+"I3": [
+"S",
+"AIM welcomes the Commission’s proposal to shift primary responsibility for AI literacy initiatives",
+""
+]
+},
+"33380876": {
+"I6": [
+"F",
+"Removal of the term “exceptionally” to normalize the processing of sensitive data for bias detection",
+""
+]
+},
+"33380885": {
+"I1": [
+"S",
+"so the “stop the clock” mechanism delivers predictability",
+""
+],
+"I6": [
+"S",
+"Implement the new legal basis for processing special categories for bias testing/correction",
+""
+],
+"I7": [
+"S",
+"Preserve registration relief for systems reasonably demonstrated as non-high-risk",
+""
+]
+},
+"33380902": {
+"I1": [
+"F",
+"a clear and transparent adjustment mechanism tied to the publication of standards, not through discretionary Commission action",
+""
+],
+"I2": [
+"S",
+"This amendment answers that question",
+"Welcomes the clarified regime for product-regulated AI"
+],
+"I3": [
+"N",
+"",
+"Mixed: welcomes the shift to a policy mandate but says the obligation 'should be retained and clarified, not deleted'"
+],
+"I4": [
+"S",
+"Extending proportionality measures to Small Mid-Cap Companies is one of the most significant structural improvements in the package",
+""
+],
+"I6": [
+"S",
+"calls on the co-legislators to retain and strengthen this provision in the final text",
+""
+],
+"I7": [
+"S",
+"The registration of systems that have already been assessed as non-high-risk serves no supervisory purpose",
+""
+],
+"I8": [
+"S",
+"The six-month window for generative AI systems to comply with Art. 50(2) ... are calibrated correctly",
+""
+]
+},
+"33380905": {
+"I1": [
+"F",
+"a clear and transparent adjustment mechanism tied to the publication of standards, not through discretionary Commission action",
+""
+],
+"I2": [
+"S",
+"This amendment answers that question",
+"Welcomes the clarified regime for product-regulated AI"
+],
+"I3": [
+"N",
+"",
+"Mixed: welcomes the shift to a policy mandate but says the obligation 'should be retained and clarified, not deleted'"
+],
+"I4": [
+"S",
+"Extending proportionality measures to Small Mid-Cap Companies is one of the most significant structural improvements in the package",
+""
+],
+"I6": [
+"S",
+"calls on the co-legislators to retain and strengthen this provision in the final text",
+""
+],
+"I7": [
+"S",
+"The registration of systems that have already been assessed as non-high-risk serves no supervisory purpose",
+""
+],
+"I8": [
+"S",
+"The six-month window for generative AI systems to comply with Art. 50(2) ... are calibrated correctly",
+""
+]
+},
+"33380911": {},
+"33380950": {},
+"33380916": {
+"I2": [
+"S",
+"Some amendments proposed by MEPs shift New Legislative Framework (NLF) legislation from Annex I Section A ... This would effectively exclude a wide range of industrial and consumer AI systems",
+"Backs keeping Section A as proposed"
+]
+},
+"33380921": {
+"I1": [
+"F",
+"A clear, realistic, and unified application date for all high-risk systems should be introduced, set no earlier than 2 August 2028",
+""
+],
+"I4": [
+"O",
+"Reject extensions of reduced penalties and privileges to selected categories of providers based on size (e.g. SMCs)",
+""
+],
+"I5": [
+"F",
+"The EU AI Office should be designated as the sole authority responsible for supervising and enforcing compliance for all AI systems developed by GPAI model providers",
+""
+],
+"I6": [
+"F",
+"includes a certain number of caveats that would make this legal basis inoperable in practice",
+"Wants fewer safeguards"
+],
+"I8": [
+"F",
+"extend it to also include a grace period for the GPAIM and transparency obligations, to at least August 2028",
+""
+]
+},
+"33380934": {
+"I2": [
+"F",
+"the sectoral legislation shall prevail to the extent of such overlap or conflict",
+"Medical devices"
+]
+},
+"33380946": {
+"I1": [
+"S",
+"We strongly support postponing the effective date for high-risk AI requirements under Annex I & III until harmonised standards and practical guidance are available",
+""
+],
+"I3": [
+"S",
+"Maintain the transfer of Article 4 AI Literacy from companies to the Member States and the Commission",
+""
+],
+"I6": [
+"S",
+"special categories of personal data shall be processable for purposes such as bias detection",
+""
+],
+"I7": [
+"F",
+"The removal of registration requirements for non-high-risk in Annex III is positive but should also include documentation requirements",
+""
+]
+},
+"33380949": {
+"I1": [
+"F",
+"Providing a fixed grace period of at least 12 months from the adoption of these measures",
+"Wants clear standards-linked triggers"
+],
+"I3": [
+"O",
+"this change may significantly reduce the incentive for organisations to develop structured AI literacy programmes",
+""
+],
+"I7": [
+"O",
+"Rather than deleting registration obligations entirely, the co-legislators should consider streamlining the registration process",
+""
+]
+},
+"33380955": {
+"I1": [
+"S",
+"Johnson & Johnson welcomes the Commission's proposal to pause the application of high-risk AI obligations until harmonized standards and notified bodies are fully in place",
+""
+],
+"I2": [
+"S",
+"Johnson & Johnson strongly supports streamlined conformity assessment, including a single application for notified bodies",
+""
+],
+"I3": [
+"S",
+"We also support the proportionate approach to AI literacy",
+""
+],
+"I6": [
+"S",
+"We welcome the expanded legal basis enabling the use of pseudonymized data for bias detection and mitigation",
+""
+]
+},
+"33380957": {
+"I1": [
+"F",
+"establish a single, fixed compliance deadline for all high-risk AI systems under both Annex I and Annex III",
+""
+],
+"I3": [
+"O",
+"Preserve and strengthen AI literacy obligations",
+""
+],
+"I5": [
+"S",
+"is a welcome step toward centralising oversight for systemically significant operators",
+"Wants independence safeguards"
+],
+"I6": [
+"S",
+"The proposed Article 4a ... is strongly supported",
+"Wants safeguards aligned to GDPR"
+]
+},
+"33380966": {
+"I1": [
+"F",
+"A single application date would also support more consistent supervisory practice",
+""
+],
+"I2": [
+"F",
+"the Machinery Regulation should be moved from Section A to Section B",
+""
+],
+"I3": [
+"S",
+"Article 4 AI Act should remain a provision aimed at encouraging appropriate knowledge and skills",
+""
+],
+"I6": [
+"S",
+"The AI Act should provide a clear and workable framework for the exceptional use of special-category data where this is strictly necessary",
+""
+],
+"I7": [
+"S",
+"Article 6(4) should preserve the existing “document and provide on request” approach",
+""
+],
+"I8": [
+"F",
+"Extending the transition period would allow providers to introduce the required technical measures",
+""
+]
+},
+"33380969": {
+"I1": [
+"S",
+"December 2027 – horizontal Annex III rules ... August 2, 2028 – MDR/IVDR AI components ... These anchors are essential",
+""
+],
+"I4": [
+"S",
+"The extension of simplified documentation requirements to Small Mid-Caps (SMCs) is strategically important for Dedalus",
+""
+],
+"I7": [
+"S",
+"The deletion of Annex VIII Section B reporting obligations is decisive",
+"Annex VIII Section B is the registration entry for exempted systems"
+]
 }
 }

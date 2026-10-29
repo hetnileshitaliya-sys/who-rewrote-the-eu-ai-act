@@ -1,14 +1,14 @@
 name: Rebuild evidence map
 
-# Re-collects the submissions from the European Commission, checks the sample
-# still matches the coded one, and rebuilds the results and the page.
+# Re-collects the submissions from the European Commission, rebuilds the
+# anonymised census list, rescores every position and rebuilds the page.
 on:
   push:
     branches: [main]
   workflow_dispatch:
     inputs:
       download_pdfs:
-        description: "Also download and extract the sampled PDFs (slower)"
+        description: "Also download and extract every PDF (slower)"
         type: boolean
         default: false
 
@@ -31,14 +31,9 @@ jobs:
       - name: 1. Collect submissions from the Have Your Say portal
         run: python 01_collect.py
 
-      - name: 2. Draw the sample (seed 42)
-        run: python 02_sample.py
-
-      - name: 3-4. Download and extract PDFs
-        if: ${{ inputs.download_pdfs }}
+      - name: 9. Build the census list (citizens anonymised)
         run: |
-          python 03_download.py
-          python 04_extract.py
+          if [ "${{ inputs.download_pdfs }}" = "true" ]; then python 09_census.py; else python 09_census.py --meta-only; fi
 
       - name: 6. Score positions against the final law
         run: python 06_analyse.py
@@ -59,7 +54,7 @@ jobs:
         with:
           name: evidence-map-results
           path: |
-            data/coded_sample.csv
+            data/coded_census.csv
             data/positions_long.csv
             data/summary.json
             data/agreement.csv

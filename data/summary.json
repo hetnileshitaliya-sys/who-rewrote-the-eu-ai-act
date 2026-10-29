@@ -1,0 +1,245 @@
+{
+ "names": {
+  "I1": "High-risk delay",
+  "I2": "Machinery and sectoral law",
+  "I3": "AI literacy",
+  "I4": "Small mid-cap relief",
+  "I5": "AI Office powers",
+  "I6": "Bias-detection data",
+  "I7": "Registration of exempted systems",
+  "I8": "Transparency grace period"
+ },
+ "direction": {
+  "I1": "further",
+  "I2": "further",
+  "I3": "pulled back",
+  "I4": "same",
+  "I5": "same",
+  "I6": "pulled back",
+  "I7": "pulled back",
+  "I8": "pulled back"
+ },
+ "submissions": 270,
+ "with_positions": 154,
+ "positions": 468,
+ "attainment": {
+  "Industry": {
+   "submissions": 163,
+   "with_positions": 109,
+   "positions": 337,
+   "share": 57,
+   "outcomes": {
+    "Partly won": 177,
+    "Won": 104,
+    "Lost": 56,
+    "Unclear": 1
+   }
+  },
+  "Public-interest and independent": {
+   "submissions": 52,
+   "with_positions": 32,
+   "positions": 96,
+   "share": 42,
+   "outcomes": {
+    "Partly won": 57,
+    "Won": 12,
+    "Lost": 27
+   }
+  },
+  "Public authorities": {
+   "submissions": 9,
+   "with_positions": 5,
+   "positions": 14,
+   "share": 46,
+   "outcomes": {
+    "Partly won": 7,
+    "Lost": 4,
+    "Won": 3
+   }
+  },
+  "Individual citizens": {
+   "submissions": 33,
+   "with_positions": 3,
+   "positions": 7,
+   "share": 71,
+   "outcomes": {
+    "Partly won": 4,
+    "Won": 3
+   }
+  },
+  "Other": {
+   "submissions": 13,
+   "with_positions": 5,
+   "positions": 13,
+   "share": 58,
+   "outcomes": {
+    "Won": 6,
+    "Lost": 4,
+    "Partly won": 3
+   }
+  }
+ },
+ "manufacturing": {
+  "submissions": 25,
+  "positions": 49,
+  "share": 54,
+  "with_positions": 16
+ },
+ "issues": {
+  "I1": {
+   "Industry": {
+    "F": 62,
+    "S": 26
+   },
+   "Public-interest and independent": {
+    "S": 2,
+    "O": 15
+   },
+   "Public authorities": {
+    "O": 2,
+    "S": 1
+   },
+   "Individual citizens": {
+    "S": 1
+   },
+   "Other": {
+    "S": 2,
+    "O": 1
+   }
+  },
+  "I2": {
+   "Industry": {
+    "S": 7,
+    "F": 18
+   },
+   "Public-interest and independent": {
+    "S": 2
+   },
+   "Public authorities": {},
+   "Individual citizens": {},
+   "Other": {
+    "S": 1
+   }
+  },
+  "I3": {
+   "Industry": {
+    "S": 34,
+    "O": 7
+   },
+   "Public-interest and independent": {
+    "O": 16,
+    "S": 2
+   },
+   "Public authorities": {
+    "S": 1,
+    "O": 1
+   },
+   "Individual citizens": {
+    "O": 1
+   },
+   "Other": {
+    "F": 1
+   }
+  },
+  "I4": {
+   "Industry": {
+    "S": 24,
+    "F": 3,
+    "O": 3
+   },
+   "Public-interest and independent": {
+    "O": 10,
+    "F": 1,
+    "S": 1
+   },
+   "Public authorities": {
+    "O": 1,
+    "S": 1
+   },
+   "Individual citizens": {
+    "S": 1
+   },
+   "Other": {
+    "S": 3,
+    "O": 1
+   }
+  },
+  "I5": {
+   "Industry": {
+    "S": 17,
+    "F": 2,
+    "O": 2
+   },
+   "Public-interest and independent": {
+    "O": 1,
+    "S": 6
+   },
+   "Public authorities": {
+    "S": 1,
+    "O": 1
+   },
+   "Individual citizens": {
+    "S": 1
+   },
+   "Other": {}
+  },
+  "I6": {
+   "Industry": {
+    "S": 40,
+    "F": 8,
+    "O": 4
+   },
+   "Public-interest and independent": {
+    "O": 11,
+    "S": 6
+   },
+   "Public authorities": {
+    "O": 1
+   },
+   "Individual citizens": {
+    "O": 2,
+    "S": 1
+   },
+   "Other": {
+    "S": 1
+   }
+  },
+  "I7": {
+   "Industry": {
+    "F": 4,
+    "S": 41,
+    "O": 3
+   },
+   "Public-interest and independent": {
+    "O": 16,
+    "S": 1
+   },
+   "Public authorities": {
+    "O": 2,
+    "S": 1
+   },
+   "Individual citizens": {},
+   "Other": {
+    "S": 1,
+    "O": 1
+   }
+  },
+  "I8": {
+   "Industry": {
+    "F": 30,
+    "S": 3
+   },
+   "Public-interest and independent": {
+    "O": 5,
+    "S": 1
+   },
+   "Public authorities": {
+    "O": 1
+   },
+   "Individual citizens": {},
+   "Other": {
+    "F": 1
+   }
+  }
+ }
+}

@@ -12,17 +12,8 @@ echo.
 echo === Step 1: collecting submissions ===
 python 01_collect.py || goto :error
 echo.
-echo === Step 2: drawing the sample ===
-python 02_sample.py || goto :error
-echo.
-echo === Step 3: downloading PDFs (about 2 minutes) ===
-python 03_download.py || goto :error
-echo.
-echo === Step 4: extracting text ===
-python 04_extract.py || goto :error
-echo.
-echo === Step 5: creating the coding sheet ===
-python 05_coding_sheet.py || goto :error
+echo === Step 9: census list, PDFs and texts (about 5 minutes) ===
+python 09_census.py || goto :error
 echo.
 echo === Step 6: scoring positions ===
 python 06_analyse.py || goto :error
@@ -30,7 +21,7 @@ echo.
 echo === Step 7: building the page ===
 python 07_build_page.py || goto :error
 echo.
-echo All done. Open docs\index.html to see the evidence map.
+echo All done. Open docs\index.html to see the tracker.
 pause
 exit /b 0
 
