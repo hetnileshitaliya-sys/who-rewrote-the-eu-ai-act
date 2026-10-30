@@ -30,11 +30,16 @@ agreement = Path("data/agreement.csv")
 if agreement.exists():
     a = {r["issue"]: r for r in csv.DictReader(open(agreement, encoding="utf-8"))}["All"]
     kappa = f", Cohen's kappa {a['kappa']}" if a["kappa"] else ""
-    banner = (f'<div class="banner">Verified: a human second coder independently coded a random 10% '
-              f'of submissions ({n_sheet}), agreeing on {a["agreement_pct"]}% of {a["coded"]} issue codes{kappa}.</div>')
-    verify = (f"<li>First-pass coding was AI-assisted and then checked: a human second coder independently "
-              f"coded a random 10% of submissions ({n_sheet}), agreeing on {a['agreement_pct']}% of issue "
-              f"codes{kappa}. Per-issue figures are in data/agreement.csv.</li>")
+    per = {r["issue"]: r for r in csv.DictReader(open(agreement, encoding="utf-8"))}
+    weakest = min((k for k in ISSUES if per.get(k, {}).get("kappa")), key=lambda k: float(per[k]["kappa"]))
+    n_adj = sum(1 for r in csv.DictReader(open("data/adjudication.csv", encoding="utf-8")) if r["second_coder"])
+    banner = (f'<div class="banner">Checked: the author, as second coder, independently coded a random 10% of '
+              f'submissions ({n_sheet}) and agreed with the AI-assisted first pass on {a["agreement_pct"]}% of '
+              f'{a["coded"]} issue codes{kappa}. Every disagreement was then ruled on by the author.</div>')
+    verify = (f"<li>First-pass coding was AI-assisted. The author independently coded a random 10% of submissions "
+              f"({n_sheet}) as second coder: agreement {a['agreement_pct']}%{kappa}. The author then ruled on all "
+              f"{n_adj} disagreements (data/adjudication.csv); the first pass is kept unchanged. The least reliable "
+              f"issue is {summary['names'][weakest]} (kappa {per[weakest]['kappa']}), so read it with more caution.</li>")
 else:
     banner = ('<div class="banner">Draft for review. Coding is not yet verified by a second coder. '
               'Not for circulation.</div>')

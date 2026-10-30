@@ -43,17 +43,17 @@ The earlier 80-submission pilot (`02_sample.py` to `05_coding_sheet.py`) is kept
 - The Council's position on moving machinery out of Annex I Section A comes from reporting on the negotiations.
 
 ## How this was built
-This is an AI-assisted pilot. Claude (Anthropic) wrote the scripts and produced the first-pass coding: issue passages were located by keyword search, each was coded with a supporting quote, and every blank cell was re-checked with a broader search. I directed the project, ran the pipeline, and am checking the coding through the blind second-coder sample. The first pass is kept unchanged so any correction is visible.
+This is an AI-assisted pilot. Claude (Anthropic) wrote the scripts and produced the first-pass coding: issue passages were located by keyword search, each was coded with a supporting quote, and every blank cell was re-checked with a broader search. I directed the project, ran the pipeline, coded the 27-submission reliability sample as second coder, and ruled on every disagreement. The first pass is kept unchanged so any correction is visible.
 
 ## Data reuse
 Submissions are published by the European Commission. This repository publishes metadata and coding, not full submission texts.
 
-## Status (29 October 2026)
-- 270 unique submissions coded on eight issues; 154 take at least one position (468 positions).
-- **Verification in progress:** 27 submissions drawn for blind second coding (`data/verification_sheet.csv`).
+## Status (30 October 2026)
+- 270 unique submissions coded on eight issues; 154 take at least one position (475 positions).
+- **Verification:** the author independently coded a random 10% (27 submissions) as second coder: 92% agreement, Cohen's kappa 0.85 (`data/agreement.csv`). The author ruled on all 17 disagreements, plus one consistency fix (`data/adjudication.csv`); the AI first pass is kept unchanged. Least reliable issue: AI Office powers (kappa 0.31).
 
-## Draft findings (subject to verification)
-- Share of positions matched by the final law (partly won counts as half): industry 57% (337 positions), public-interest and independent groups 42% (96), public authorities 46% (14), citizens 71% (7, indicative only).
+## Findings
+- Share of positions matched by the final law (partly won counts as half): industry 57% (341 positions), public-interest and independent groups 42% (97), public authorities 46% (14), citizens 71% (7, indicative only).
 - The 80-submission pilot gave 57% and 43%, so the sample estimate held under the full census.
 - The final law went further than the Commission proposed on the two issues industry pushed (fixed high-risk delay dates; machinery moved to Annex I Section B), and pulled back on four issues public-interest groups contested (AI literacy, bias-detection data, registration of exempted systems, transparency grace period).
 - Manufacturers and their associations (our classification, 25 submitters) were matched on 54% of their positions.

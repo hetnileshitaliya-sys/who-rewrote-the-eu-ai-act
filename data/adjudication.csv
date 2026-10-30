@@ -1,0 +1,19 @@
+id,issue,first_pass,second_coder,final,quote,reason
+33380822,I1,S,N,S,,"Calls the standards link ""pragmatic and necessary"""
+33380822,I7,S,N,S,,Praises the registration simplification as a meaningful reduction in burden
+33380786,I1,N,F,F,AI Sweden therefore advocates that the rules should become applicable on fixed dates,Asks for fixed dates instead of a discretionary Commission decision
+33380786,I5,N,O,O,AI Sweden generally advocates an extended mandate and responsibility for the AI Board,Wants the AI Board and Member States to hold the power instead of the AI Office
+33380786,I8,F,S,S,AI Sweden welcomes the proposal in Article 50 that it must be disclosed when content has been artificially generated or manipulated,Welcomes the proposal; the transitional period is justified
+33380582,I6,N,O,O,this expansion of legitimate interest could be a blank check for AI companies,Calls the expansion of sensitive data processing a step back and a blank check
+33377565,I5,S,F,F,The AI Office should be responsible for enforcing Article 50 of the AI Act,Supports the change but wants AI Office powers extended to Article 50
+33380902,I3,N,S,O,"The AI literacy obligation should be retained and clarified, not deleted","Despite the burden, says the obligation should be retained and clarified, not deleted"
+33380905,I3,N,,O,"The AI literacy obligation should be retained and clarified, not deleted",Same text as European AI Forum; coded the same for consistency
+33380902,I5,N,F,N,,About an AI Office mediation role between national authorities; not the Article 75 GPAI powers
+33380675,I3,N,S,S,SMEs require coordinated support from Member States and the AI Office,Supports the shift to Member States; narrow exception for human-overseer training
+33380675,I7,S,O,O,While we understand the need to remove the registration requirement ... we would therefore strongly recommend maintaining (more limited) transparency obligations,Despite understanding the burden; strongly recommends maintaining the transparency obligation
+33380675,I8,F,N,F,,Aligning markers with high-risk timelines extends the grace period well beyond six months
+33380934,I2,F,N,F,,"Saying sectoral legislation ""shall prevail"" goes further than the dual-compliance model"
+33377833,I5,S,N,S,,Welcomes the Commission's intention to harmonise enforcement
+33380610,I5,N,S,N,,Praises a Parliament coordination clause; not the Article 75 GPAI powers
+33380815,I4,N,S,S,Workday does not oppose a targeted lighter compliance regime for SMEs and SMCs,Does not oppose the lighter regime despite downstream cautions
+33380773,I7,S,N,S,,Supports the streamlining of registration requirements and their deletion

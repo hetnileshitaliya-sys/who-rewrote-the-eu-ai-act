@@ -21,27 +21,27 @@
  },
  "submissions": 270,
  "with_positions": 154,
- "positions": 468,
+ "positions": 475,
  "attainment": {
   "Industry": {
    "submissions": 163,
    "with_positions": 109,
-   "positions": 337,
+   "positions": 341,
    "share": 57,
    "outcomes": {
-    "Partly won": 177,
+    "Partly won": 180,
     "Won": 104,
-    "Lost": 56,
+    "Lost": 57,
     "Unclear": 1
    }
   },
   "Public-interest and independent": {
    "submissions": 52,
    "with_positions": 32,
-   "positions": 96,
+   "positions": 97,
    "share": 42,
    "outcomes": {
-    "Partly won": 57,
+    "Partly won": 58,
     "Won": 12,
     "Lost": 27
    }
@@ -70,12 +70,12 @@
   "Other": {
    "submissions": 13,
    "with_positions": 5,
-   "positions": 13,
-   "share": 58,
+   "positions": 15,
+   "share": 60,
    "outcomes": {
-    "Won": 6,
+    "Won": 7,
     "Lost": 4,
-    "Partly won": 3
+    "Partly won": 4
    }
   }
  },
@@ -104,6 +104,7 @@
    },
    "Other": {
     "S": 2,
+    "F": 1,
     "O": 1
    }
   },
@@ -123,8 +124,8 @@
   },
   "I3": {
    "Industry": {
-    "S": 34,
-    "O": 7
+    "S": 35,
+    "O": 9
    },
    "Public-interest and independent": {
     "O": 16,
@@ -143,7 +144,7 @@
   },
   "I4": {
    "Industry": {
-    "S": 24,
+    "S": 25,
     "F": 3,
     "O": 3
    },
@@ -166,8 +167,8 @@
   },
   "I5": {
    "Industry": {
-    "S": 17,
-    "F": 2,
+    "S": 16,
+    "F": 3,
     "O": 2
    },
    "Public-interest and independent": {
@@ -181,7 +182,9 @@
    "Individual citizens": {
     "S": 1
    },
-   "Other": {}
+   "Other": {
+    "O": 1
+   }
   },
   "I6": {
    "Industry": {
@@ -190,7 +193,7 @@
     "O": 4
    },
    "Public-interest and independent": {
-    "O": 11,
+    "O": 12,
     "S": 6
    },
    "Public authorities": {
@@ -207,8 +210,8 @@
   "I7": {
    "Industry": {
     "F": 4,
-    "S": 41,
-    "O": 3
+    "S": 40,
+    "O": 4
    },
    "Public-interest and independent": {
     "O": 16,
@@ -238,7 +241,7 @@
    },
    "Individual citizens": {},
    "Other": {
-    "F": 1
+    "S": 1
    }
   }
  }

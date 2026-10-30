@@ -2,7 +2,9 @@
 
 Reads data/codes_ai_first_pass.json (one entry per submission:
 issue -> [position, quote, note]), data/census_public.csv (metadata, from 09_census.py)
-and data/outcome_overrides.csv (hand-judged outcomes, each with a reason).
+data/outcome_overrides.csv (hand-judged outcomes, each with a reason) and
+data/adjudication.csv (the author's final ruling wherever the first pass and the
+second coder disagreed; the first pass itself is never edited).
 Scores every position against the final law (see codebook.md) and writes:
   data/coded_census.csv    one row per submission
   data/positions_long.csv  one row per position taken
@@ -65,6 +67,11 @@ def outcome(issue, pos):
 
 
 codes = json.load(open("data/codes_ai_first_pass.json", encoding="utf-8"))
+for a in csv.DictReader(open("data/adjudication.csv", encoding="utf-8")):
+    old = codes[a["id"]].get(a["issue"], ["N", "", ""])
+    if a["final"] != old[0]:
+        quote = a["quote"] or (old[1] if a["final"] != "N" else "")
+        codes[a["id"]][a["issue"]] = [a["final"], quote, f"Adjudicated by the author: {a['reason']}"]
 meta = {r["id"]: r for r in csv.DictReader(open("data/census_public.csv", encoding="utf-8"))}
 override = {(r["id"], r["issue"]): (r["outcome"], r["note"])
             for r in csv.DictReader(open("data/outcome_overrides.csv", encoding="utf-8"))}
