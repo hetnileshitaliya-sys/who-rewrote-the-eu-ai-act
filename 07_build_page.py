@@ -52,6 +52,12 @@ page = Path("docs/template.html").read_text(encoding="utf-8")
 page = (page.replace("__BANNER__", banner).replace("__VERIFY__", verify)
             .replace("__DATE__", f"{today.day} {today:%B %Y}")
             .replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
+# Standalone page for GitHub Pages: add the document skeleton (charset, phone viewport)
+page = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+        '<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}'
+        'body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
+        + page.replace("</style>", "</style>\n</head>\n<body>", 1) + "\n</body>\n</html>\n")
 Path("docs/index.html").write_text(page, encoding="utf-8")
 print(f"Built docs/index.html: {len(subs)} submitters, {len(rows)} positions "
       f"({'verified' if agreement.exists() else 'draft'})")
